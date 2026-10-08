@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Laptop Screen
+Comment=Share this laptop with a Samsung TV
+Terminal=true
+Exec=bash -c 'cd "$(dirname "$1")" && exec bash "./Launch Laptop Screen.sh"' _ %k
+Categories=AudioVideo;
+StartupNotify=true
